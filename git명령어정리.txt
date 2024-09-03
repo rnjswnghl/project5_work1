@@ -2,10 +2,12 @@
 
 2. 초기화(.git 폴더 생성됨 - 숨겨져 있음.) /한번만, 이제부터 관리할 거다~
 git init
+-> 볼 떄, ls -al (숨겨진 파일 확인)
 .git 폴더 삭제 (rm -rf .git)
 
 3. 브랜치 이름 기본값 변경하기 (master일 때)
-git config --global init.defaultBranch main
+git config --global init.defaultBranch main   (초기값 변경) 다음부터 적용
+git branch -M main  (현재 브랜치명 수정)
 
 4. git 상태 확인
 git status
