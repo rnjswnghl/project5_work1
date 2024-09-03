@@ -49,3 +49,6 @@ git remote -v
 git remote add 리모트 이름 github 리파지토리 주소
 git remote add origin https://github.com/rnjswnghl/project5_work1.git
 
+3. remote 삭제
+git remote rm 리모트이름
+git remote rm origin
