@@ -1,6 +1,6 @@
 1. git으로 관리할 경로까지 이동
 
-2. 초기화(.git 폴더 생성됨 - 숨겨져 있음.)
+2. 초기화(.git 폴더 생성됨 - 숨겨져 있음.) /한번만, 이제부터 관리할 거다~
 git init
 .git 폴더 삭제 (rm -rf .git)
 
@@ -10,7 +10,7 @@ git config --global init.defaultBranch main
 4. git 상태 확인
 git status
 
-5. git으로 관리하는 파일로 추가 . ->현재경로에 있는 모든 것
+5. git으로 관리하는 파일로 추가 . ->현재경로에 있는 모든 것 / 저장할거다~~
 git add .
 
 6. commit (해당 시점을 저장)
@@ -36,3 +36,16 @@ ctrl + shift + insert
 project5/test1 생성
 git으로 관리
 파일 생성은 알아서...최소 커밋의 수는 5번 이상 되도록
+global 말구
+
+-----------------------------------------------------------------------------
+
+로컬 컴퓨터(코드 있음)와 github 사이트(비어있음) 연결
+1. remote 정보 확인
+git remote
+git remote -v
+
+2. remote 주가
+git remote add 리모트 이름 github 리파지토리 주소
+git remote add origin https://github.com/rnjswnghl/project5_work1.git
+
