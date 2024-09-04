@@ -114,3 +114,10 @@ git branch -d 브렌치명
 
 브렌치 복구
 git branch 브렌치명 커밋번호
+
+
+git log --graph
+git log --graph --all
+git log --graph --oneline
+git log --graph --oneline --all
+
